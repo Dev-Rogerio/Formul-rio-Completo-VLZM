@@ -1,0 +1,75 @@
+.modal {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba (0,0,0,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container {
+         background-color: rgb(245, 169, 28);
+        width: 60%;
+        height: 60%;
+        color: #000;
+        border-radius: 7px;       
+
+}
+.close { 
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+.img3 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    z-index: 1;    
+    align-items: center;
+    left: 78%;
+    display: flex;
+    cursor: pointer;
+    top: 90px;
+    color:#000; 
+}
+.salvar {
+    position: absolute;
+    width: 100px;
+    height:30px;
+    background: rgb(5, 99, 5);
+    top: 205px;
+    left: 68.5%;
+    border-radius: 5px;
+    color: #fff;
+}
+.dadosModal{
+    position: relative;
+    margin-left: 230px;
+    top: 10px;
+    color: rgb(77, 76, 76);
+}
+
+.lineinputModal {
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.lb_ps-a, .nf-b, .lb_cons-c, .lb_perf-d, .lb_Gestor-e, .lb_inicAtiv-f{
+    position: absolute;
+    top: 120px;
+
+}
+
+.lb_periodo-g, .lb_qhoras-h, .lb_vlHoras-i, .lb_valTot-j, .lb_imposto-l {
+    position: absolute;
+    top: 183px;
+}
+
+
+
